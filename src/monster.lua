@@ -19,7 +19,7 @@ function Monster:init(def, level)
     self.gender = def.gender
     self.speciesId = def.speciesId
 
-    self.MonsterMovesListID = def.MonsterMovesListID
+    self.MonsterMovesId = def.MonsterMovesId
 
 end
 
