@@ -74,3 +74,7 @@ Weather
 ———
 Pokémon id 
 Encounter rate
+
+## Catchrate
+
+where does this fit? on pokemon species list?
