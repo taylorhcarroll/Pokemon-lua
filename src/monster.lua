@@ -2,7 +2,7 @@ Monster = Class{}
 
 --add species as input?
 function Monster:init(def, level)
-    self.ID = def.ID
+    self.Id = def.Id
     self.name = def.name
 
     -- do I need this here?
@@ -17,6 +17,9 @@ function Monster:init(def, level)
 
     self.level = def.level
     self.gender = def.gender
-    self.speciesID = def.spec
+    self.speciesId = def.speciesId
+
+    self.MonsterMovesListID = def.MonsterMovesListID
 
 end
+

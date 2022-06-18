@@ -1,7 +1,7 @@
 Species = Class{}
 
 function Species:init(def, level)
-    self.ID = def.ID
+    self.Id = def.Id
     self.speciesName = def.speciesName
     self.battleSpriteFront = def.battleSpriteFront
     self.battleSpriteBack = def.battleSpriteBack
